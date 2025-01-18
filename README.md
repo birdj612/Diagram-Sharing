@@ -217,7 +217,7 @@ config:
   fontFamily: diavlo
 ---
 flowchart TD
-    A["PRODUCT?"] --> B1["ALSO PRODUCT?<br>ALSO VARIANT?"] & n4["ALSO PRODUCT?<br>ALSO VARIANT?"]
+    A["PRODUCT?"] --> B1["ALSO PRODUCT?<br>ALSO VARIANT?<br>ITEM?"] & n4["ALSO PRODUCT?<br>ALSO VARIANT?<br>ITEM?"]
     B1 --> C1["FAMILY"]
     C1 --> D1["SUBFAMILY"] & n1["SUBFAMILY"]
     D1 --> E1["VARIANT"] & E2["VARIANT"]
@@ -260,7 +260,7 @@ flowchart TD
     n5["NAN"] --> n6["030"]
     n6 --> n7["BRICK BEIGE"]
     n4 --> n5
-    n8["PRODUCT?"] --> n9["ALSO PRODUCT?<br>ALSO VARIANT?"] & n10["ALSO PRODUCT?<br>ALSO VARIANT?"]
+    n8["PRODUCT?"] --> n9["ALSO PRODUCT?<br>ALSO VARIANT?<br>ITEM?"] & n10["ALSO PRODUCT?<br>ALSO VARIANT?<br>ITEM?"]
     n9 --> n11["FAMILY"]
     n11 --> n12["SUBFAMILY"]
     n12 --> n13["VARIANT"]
