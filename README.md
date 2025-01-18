@@ -350,7 +350,7 @@ familyOrder: [
     "KKF", // semperFlash krystal
     "H69", // SemperFlash Holographic 1/69
     "H32", // SemperFlash Holographic 1/32
-    "SFM", // SemperFlash fucking multi
+    "SFM", // SemperFlash Miscellaneous...
     "PSW", // streamer wing
     "SFB", // semperFlash blends + baitfish wing
     "PFB", // predator fibres
