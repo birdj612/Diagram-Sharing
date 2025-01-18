@@ -165,7 +165,7 @@ flowchart TB
     P9 -.-> EX9["LEAD WIRE NATURAL"]
     P10 -.-> EX10["DRY FLY POLYYARN CADDIS GREY / BROWN:<br>SDFP000CGB"]
     Path6["MISMATCHED NAME APROX: 41"] -..-> EX11["1/69 HOLOGRAPHIC TINSEL:<br>ST69M69"]
-    Root{{"SKU VARIATION"}} -..-> Path1["STANDARD"] & Path2["STANDARD NO VARIANTS APROX: 10"] & Path3["STANDARD NO VARIANTS NO SUBFAMILY APROX: 15"] & Path4 & Path5 & Path6
+    Root{{"SKU VARIATION"}} -..-> Path1["STANDARD"] & Path2["STANDARD<br>NO VARIANTS<br>APROX: 10"] & Path3["STANDARD<br>NO VARIANTS<br>NO SUBFAMILY<br>APROX: 15"] & Path4 & Path5 & Path6
     Path1 --> P1 & P2
     Path2 --> P3 & P4
     Path3 --> P5 & P6
@@ -288,7 +288,7 @@ flowchart TD
 
 ## 1. Primary Order
 
-### <pre>   This is the main sorting config that defines the order of product families</pre>
+### This is the main sorting config that defines the order of product families
 
 ```javascript
 familyOrder: [
@@ -428,7 +428,7 @@ familyOrder: [
 
 ## 2. Secondary Order
 
-### <pre>   The subfamilies are sorted in ascending or descending order within the family groups</pre>
+### The subfamilies are sorted in ascending or descending order within the family groups
 
 ```javascript
   defaultDirection: "ascending", // Default sort direction for families
@@ -441,7 +441,7 @@ familyOrder: [
 
 ## 3. Tertiary Order
 
-### <pre>   The variants are sorted alphabetically according to the color</pre>
+### The variants are sorted alphabetically according to the color
 
 ---
 
